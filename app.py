@@ -5,13 +5,13 @@ import title
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.corpus import stopwords
-#from nltk.stem import PorterStemmer
+from nltk.stem import PorterStemmer
 import helper
 from io import StringIO
 import requests
 from bs4 import BeautifulSoup
 from PIL import Image
-# nltk.download('punkt')
+nltk.download('punkt')
 st.set_page_config(layout="wide")
 
 
