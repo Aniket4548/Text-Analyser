@@ -11,6 +11,8 @@ from io import StringIO
 import requests
 from bs4 import BeautifulSoup
 from PIL import Image
+import title
+import yake
 # nltk.download('punkt')
 st.set_page_config(layout="wide")
 
