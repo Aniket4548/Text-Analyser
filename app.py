@@ -13,6 +13,7 @@ from bs4 import BeautifulSoup
 from PIL import Image
 nltk.download('punkt')
 st.set_page_config(layout="wide")
+nltk.download('stopwords')
 
 
 st.title("Text Summarization")
